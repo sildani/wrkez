@@ -23,6 +23,7 @@ class BootStrap {
 			
 		def manager = new User(username:'pthurdekoos', firstName:'Pablo',
 				lastName:'Thurdekoos', password:'pthurdekoos',
+				company:clientCompany,
 				roles:[new Role(name:'Client Manager')]).save()
 		
     }
